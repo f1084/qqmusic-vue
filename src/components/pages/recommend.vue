@@ -40,6 +40,7 @@
                 </li>
             </ul>
         </div>
+        <vfooter></vfooter>
     </div>
 </template>
 <script>
@@ -90,7 +91,8 @@ export default {
     components:{
         swiper,
         swiperSlide,
-        VrecomList
+        VrecomList,
+        Vfooter
     }
 }
 </script>

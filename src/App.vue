@@ -30,7 +30,7 @@ export default {
     background: #F4F4F4;
     font-family: "hiragino sans gb",arial;
 }
-ul,p{
+ul,p,h6{
     margin: 0;
     padding: 0;
 }
