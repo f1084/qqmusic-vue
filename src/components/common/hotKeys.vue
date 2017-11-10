@@ -2,14 +2,15 @@
     <div class="mod_search_result" v-show="isShow">
         <h3 class="result_tit">热门搜索</h3>
         <div class="result_tags">
-            <a :href="hotKeysObject['special_url']" class="tag_s tag_hot" @click="search($event)" > {{ hotKeysObject['special_key'] }}</a>
+            <a :href="hotKeysObject['special_url']" class="tag_s tag_hot"> {{ hotKeysObject['special_key'] }}</a>
             <a v-for=" ( item , index ) in hotKeysObject['hotKeys'] " href="javascript:;" class="tag_s"
-               :data-n="item['n']" :key="index" @click="search($event)" v-if="index < 10 "> {{ item['k'] }} </a>
+               :data-n="item['n']" :key="index" @click="searchHotKey(item['k'])" v-if="index < 10 "> {{ item['k'] }} </a>
         </div>
     </div>
 </template>
 
 <script type="es6">
+    import {mapMutations,mapGetters} from 'vuex'
     export default{
     	props : ['isShow'],
         data(){
@@ -17,8 +18,7 @@
 				hotKeysObject : {
 					special_key : '',
 					hotKeys : []
-                },
-				recordList : []
+                }
             }
         },
         methods :{
@@ -37,14 +37,9 @@
                     _this.$store.commit('set_hotKeysObject' , { hotKeysObject : _this.hotKeysObject })
                 })
 			},
-			search : function (event) {
-				//点击每个热门搜索词
-                let currentText = event.srcElement.innerHTML;
-                //将当前的记录下来
-                if( !this.recordList.includes( currentText ) ) this.recordList.push( currentText );
-                this.$store.commit('set_recordList' , { recordList : this.recordList });
-
-                window.location.reload();
+			searchHotKey : function (key) {
+                this.$store.dispatch('set_recordList' , key);
+                this.$store.dispatch('set_currentKeyWord',key);
 			}
         },
         mounted(){

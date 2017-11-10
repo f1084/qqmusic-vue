@@ -5,7 +5,9 @@
     <keep-alive>	
       	<router-view></router-view>
     </keep-alive>
-    <vplayer></vplayer>
+    <!-- <transition name="fade">
+        <vplayer v-show="isShowPlayer"></vplayer>
+    </transition> -->
   </div>
 </template>
 
@@ -20,6 +22,11 @@ export default {
     Vtabs,
     Vplayer
   }
+//   computed:{
+//       isShowPlayer(){
+//           return this.$store.state.isShowPlayer
+//       }
+//   }
 }
 </script>
 
@@ -29,6 +36,9 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     background: #F4F4F4;
     font-family: "hiragino sans gb",arial;
+}
+span{
+    color:#808080;
 }
 ul,p,h6{
     margin: 0;
@@ -49,5 +59,11 @@ li{
 }
 .mu-tab-active{
     color:#31C27C !important;
+}
+.fade-enter,.fade-leave-to{
+    opacity: 0;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
 }
 </style>

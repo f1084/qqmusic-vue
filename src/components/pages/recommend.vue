@@ -9,8 +9,8 @@
         <div class="mod-two-col-list mod-two-col-list-normal">
             <h2 class="list-title">电台</h2>
             <ul id="radio-wrapper" class="list-container">
-                <li class="js-player-radio" v-for="(val,index) in radioListArr" :key="val.id">
-                    <a href="" class="list-main">
+                <li class="js-player-radio" v-for="(val,index) in radioListArr" :key="val.id" @click="playAudio()">
+                    <a href="javascript:;" class="list-main">
                         <div class="list-media">
                             <img src="" alt="" :src="val.picUrl" class="list-pic">
                             <span class="icon icon-play"></span>
@@ -75,6 +75,11 @@ export default {
     computed: {
         swiper() {
             return this.$refs.mySwiper.swiper
+        }
+    },
+    methods:{
+        playAudio(){
+            this.$router.push('player')
         }
     },
     mounted() {

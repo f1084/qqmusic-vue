@@ -30,7 +30,7 @@
         </div>
         <div class="toplist-wrap">
             <div class="count_box">
-	    		<div class="count_box__desc">排行榜<span class="count_box__number">共100首</span></div>
+	    		<div class="count_box__desc">排行榜<span class="count_box__number">{{"共"+total_song_num+"首"}}</span></div>
 	    		<!-- <a class="collect js_open_music" data-type="1" href="javascript:;">下载</a> -->
 	    	</div>
             <ul class="topList">
@@ -62,6 +62,7 @@ export default{
         return{
             day_of_year:'',
             date:'',
+            total_song_num:0,
             topList:{color:'',img:'',list:[]},
             infoColor:false
         }
@@ -83,6 +84,7 @@ export default{
             console.log(res);
             this.day_of_year=res.body.day_of_year;
             this.date=res.body.date;
+            this.total_song_num=res.body.total_song_num;
             this.topList.title=res.body.topinfo.ListName;
             this.topList.color='#'+res.body.color.toString(16);
             if (this.topList.color.length<7){

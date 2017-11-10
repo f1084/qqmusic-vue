@@ -17,9 +17,6 @@ Vue.use(VueLazyload, {
   loading: require('@/assets/default_pic.jpg')
 })
 
-import Vuex from 'vuex';
-Vue.use( Vuex )
-
 import store from './store/'
 
 // import axios from 'axios'

@@ -19,13 +19,6 @@ export default new Router({
       path: '/rank',
       name: 'rank',
       component: resolve => require.ensure([], () => resolve(require('@/components/pages/rank.vue')), 'rank'),
-      // children: [
-      //   {
-      //     path: ':id',
-      //     name: 'top',
-      //     component: resolve => require.ensure([], () => resolve(require('@/components/pages/top.vue')), 'top')
-      //   }
-      // ]
     },
     {
       path: '/search',
@@ -36,6 +29,11 @@ export default new Router({
       path: '/top/:id',
       name: 'top',
       component: resolve => require.ensure([], () => resolve(require('@/components/pages/top.vue')), 'top')
+    },
+    {
+      path: '/player',
+      name: 'player',
+      component: resolve => require.ensure([], () => resolve(require('@/components/pages/player.vue')), 'player')
     }
   ]
 })

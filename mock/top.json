@@ -1,201 +1,187 @@
 {
     "code": 0,
-    "subcode": 0,
-    "message": "",
-    "default": 0,
-    "data": {
-        "topList": [{
-            "id": 4,
-            "listenCount": 19200000,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_4_300_204505031.jpg",
-            "songList": [{
-                "singername": "薛之谦",
-                "songname": "遗憾 (Live)"
-            }, {
-                "singername": "刘维/薛之谦",
-                "songname": "婚礼的祝福 (Live)"
-            }, {
-                "singername": "金志文",
-                "songname": "永不消逝"
+    "color": 0,
+    "comment_num": 37103,
+    "cur_song_num": 100,
+    "date": "2017-11-04",
+    "day_of_year": "308",
+    "song_begin": 0,
+    "songlist": [{
+        "Franking_value": "3785838",
+        "cur_count": "3785838",
+        "data": {
+            "albumdesc": "",
+            "albumid": 2547895,
+            "albummid": "0037qtDt3hxO46",
+            "albumname": "别",
+            "alertid": 100000,
+            "belongCD": 1,
+            "cdIdx": 0,
+            "interval": 215,
+            "isonly": 0,
+            "label": "0",
+            "msgid": 0,
+            "pay": {
+                "payalbum": 0,
+                "payalbumprice": 0,
+                "paydownload": 0,
+                "payinfo": 1,
+                "payplay": 0,
+                "paytrackmouth": 1,
+                "paytrackprice": 0,
+                "timefree": 1
+            },
+            "preview": {
+                "trybegin": 67436,
+                "tryend": 99499,
+                "trysize": 514088
+            },
+            "rate": 31,
+            "singer": [{
+                "id": 5062,
+                "mid": "002J4UUk29y8BY",
+                "name": "薛之谦"
             }],
-            "topTitle": "广汽传祺·巅峰榜·流行指数",
-            "type": 0
-        }, {
-            "id": 26,
-            "listenCount": 19100000,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_26_300_204235009.jpg",
-            "songList": [{
-                "singername": "李荣浩",
-                "songname": "祝你幸福"
-            }, {
-                "singername": "李宇春",
-                "songname": "今天雨，可是我们在一起"
-            }, {
-                "singername": "金志文",
-                "songname": "远走高飞 (独唱版)"
+            "size128": 3451693,
+            "size320": 8628953,
+            "size5_1": 0,
+            "sizeape": 20302497,
+            "sizeflac": 20247316,
+            "sizeogg": 4379794,
+            "songid": 206379449,
+            "songmid": "003uIckZ4ZP87A",
+            "songname": "别",
+            "songorig": "别",
+            "songtype": 0,
+            "strMediaMid": "003uIckZ4ZP87A",
+            "stream": 5,
+            "switch": 636799,
+            "type": 0,
+            "vid": ""
+        },
+        "in_count": "7.5717",
+        "mb": "xuezhiqian",
+        "old_count": "0",
+        "vid": {
+            "Fstatus": null
+        }
+    }, {
+        "Franking_value": "3178474",
+        "cur_count": "3178474",
+        "data": {
+            "albumdesc": "",
+            "albumid": 2664655,
+            "albummid": "000mdFCu1l6qwv",
+            "albumname": "像风一样",
+            "alertid": 100000,
+            "belongCD": 1,
+            "cdIdx": 0,
+            "interval": 255,
+            "isonly": 0,
+            "label": "0",
+            "msgid": 0,
+            "pay": {
+                "payalbum": 0,
+                "payalbumprice": 0,
+                "paydownload": 0,
+                "payinfo": 1,
+                "payplay": 0,
+                "paytrackmouth": 1,
+                "paytrackprice": 0,
+                "timefree": 1
+            },
+            "preview": {
+                "trybegin": 0,
+                "tryend": 0,
+                "trysize": 0
+            },
+            "rate": 31,
+            "singer": [{
+                "id": 5062,
+                "mid": "002J4UUk29y8BY",
+                "name": "薛之谦"
             }],
-            "topTitle": "巅峰榜·热歌",
-            "type": 0
-        }, {
-            "id": 27,
-            "listenCount": 14551120,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_27_300_203488541.jpg",
-            "songList": [{
-                "singername": "PRC 巴音汗",
-                "songname": "80000 ! (prod.by DROYC原声版)"
-            }, {
-                "singername": "吴亦凡/Travis Scott",
-                "songname": "Deserve （feat. Travis Scott）"
-            }, {
-                "singername": "Taylor Swift",
-                "songname": "Gorgeous"
+            "size128": 4082823,
+            "size320": 10206761,
+            "size5_1": 0,
+            "sizeape": 25080361,
+            "sizeflac": 25007375,
+            "sizeogg": 5568158,
+            "songid": 207323048,
+            "songmid": "001uxKNp3a7Qkv",
+            "songname": "像风一样",
+            "songorig": "像风一样",
+            "songtype": 0,
+            "strMediaMid": "001uxKNp3a7Qkv",
+            "stream": 5,
+            "switch": 636799,
+            "type": 0,
+            "vid": ""
+        },
+        "in_count": "6.3569",
+        "mb": "xuezhiqian",
+        "old_count": "0",
+        "vid": {
+            "Fstatus": null
+        }
+    }, {
+        "Franking_value": "1184388",
+        "cur_count": "1184388",
+        "data": {
+            "albumdesc": "",
+            "albumid": 2708066,
+            "albummid": "003iVYCN2NDbbo",
+            "albumname": "梦想的声音第二季 第2期",
+            "alertid": 100002,
+            "belongCD": 8,
+            "cdIdx": 0,
+            "interval": 222,
+            "isonly": 1,
+            "label": "0",
+            "msgid": 14,
+            "pay": {
+                "payalbum": 0,
+                "payalbumprice": 0,
+                "paydownload": 1,
+                "payinfo": 1,
+                "payplay": 0,
+                "paytrackmouth": 1,
+                "paytrackprice": 200,
+                "timefree": 0
+            },
+            "preview": {
+                "trybegin": 0,
+                "tryend": 0,
+                "trysize": 0
+            },
+            "rate": 31,
+            "singer": [{
+                "id": 4286,
+                "mid": "001BLpXF2DyJe2",
+                "name": "林俊杰"
             }],
-            "topTitle": "巅峰榜·新歌",
-            "type": 0
-        }, {
-            "id": 28,
-            "listenCount": 19700000,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_28_300_204250233.jpg",
-            "songList": [{
-                "singername": "校长",
-                "songname": "过得好吗"
-            }, {
-                "singername": "何野",
-                "songname": "80000"
-            }, {
-                "singername": "李朝/王圣锋",
-                "songname": "情话微甜"
-            }],
-            "topTitle": "巅峰榜·网络歌曲",
-            "type": 0
-        }, {
-            "id": 5,
-            "listenCount": 8580080,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_5_300_204363498.jpg",
-            "songList": [{
-                "singername": "李宇春",
-                "songname": "今天雨，可是我们在一起"
-            }, {
-                "singername": "李荣浩",
-                "songname": "祝你幸福"
-            }, {
-                "singername": "汪峰",
-                "songname": "那年我五岁"
-            }],
-            "topTitle": "巅峰榜·内地",
-            "type": 0
-        }, {
-            "id": 6,
-            "listenCount": 4292920,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_6_300_204352599.jpg",
-            "songList": [{
-                "singername": "狮子合唱团",
-                "songname": "天亮以后说分手"
-            }, {
-                "singername": "光良",
-                "songname": "九种使用孤独的正确方式"
-            }, {
-                "singername": "莫文蔚",
-                "songname": "We Don't Talk Anymore"
-            }],
-            "topTitle": "巅峰榜·港台",
-            "type": 0
-        }, {
-            "id": 3,
-            "listenCount": 14150240,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_3_300_204275873.jpg",
-            "songList": [{
-                "singername": "Charlie Puth",
-                "songname": "How Long"
-            }, {
-                "singername": "Maroon 5/Julia Michaels",
-                "songname": "Help Me Out"
-            }, {
-                "singername": "Alan Walker",
-                "songname": "The Spectre"
-            }],
-            "topTitle": "巅峰榜·欧美",
-            "type": 0
-        }, {
-            "id": 16,
-            "listenCount": 8924020,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_16_300_204432389.jpg",
-            "songList": [{
-                "singername": "다비치 (Davichi)",
-                "songname": "나에게 넌 (你对于我而言)"
-            }, {
-                "singername": "GOT7 (갓세븐)",
-                "songname": "Moon U"
-            }, {
-                "singername": "장우영 (张佑荣)",
-                "songname": "똑같지 뭐 (Still here)"
-            }],
-            "topTitle": "巅峰榜·韩国",
-            "type": 0
-        }, {
-            "id": 17,
-            "listenCount": 1926210,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_17_300_203820499.jpg",
-            "songList": [{
-                "singername": "田口淳之介",
-                "songname": "DIMENSION"
-            }, {
-                "singername": "H△G (ハグ)",
-                "songname": "アイロニ (反语)"
-            }, {
-                "singername": "LiSA (織部里沙)",
-                "songname": "Catch the Moment"
-            }],
-            "topTitle": "巅峰榜·日本",
-            "type": 0
-        }, {
-            "id": 201,
-            "listenCount": 141114,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150127163830.jpg",
-            "songList": [{
-                "singername": "张艺兴",
-                "songname": "羊 (SHEEP)"
-            }, {
-                "singername": "大壮",
-                "songname": "我们不一样"
-            }, {
-                "singername": "Charlie Puth",
-                "songname": "How Long"
-            }],
-            "topTitle": "巅峰榜·MV",
-            "type": 0
-        }, {
-            "id": 52,
-            "listenCount": 1851810,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_52_300_204160513.jpg",
-            "songList": [{
-                "singername": "秘密行动",
-                "songname": "Why We Chose To Die In Berlin"
-            }, {
-                "singername": "热斑乐队",
-                "songname": "想要什么样的爱 (Remix)"
-            }, {
-                "singername": "DA BANG",
-                "songname": "跳舞是活动的冥想"
-            }],
-            "topTitle": "巅峰榜·腾讯音乐人原创榜",
-            "type": 0
-        }, {
-            "id": 36,
-            "listenCount": 4691560,
-            "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_36_300_200732007.jpg",
-            "songList": [{
-                "singername": "左慧晨",
-                "songname": "天空之城"
-            }, {
-                "singername": "郑阳亭",
-                "songname": "你那么爱他"
-            }, {
-                "singername": "陈诗思",
-                "songname": "我好想你"
-            }],
-            "topTitle": "巅峰榜·K歌金曲",
-            "type": 0
-        }]
-    }
+            "size128": 3567509,
+            "size320": 8917920,
+            "size5_1": 0,
+            "sizeape": 24956744,
+            "sizeflac": 25075397,
+            "sizeogg": 4623107,
+            "songid": 207678778,
+            "songmid": "0019gCB61VcvH2",
+            "songname": "爱你 (Live)",
+            "songorig": "爱你",
+            "songtype": 0,
+            "strMediaMid": "0019gCB61VcvH2",
+            "stream": 6,
+            "switch": 17413891,
+            "type": 0,
+            "vid": ""
+        },
+        "in_count": "2.3688",
+        "mb": "jjlin",
+        "old_count": "0",
+        "vid": {
+            "Fstatus": null
+        }
+    }]
 }

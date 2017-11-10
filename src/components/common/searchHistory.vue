@@ -1,7 +1,7 @@
 <template>
-    <div class="focus_wrapper" v-show="isShow">
+    <div class="focus_wrapper">
         <div class="mod_search_record">
-            <li class="mod_search_unit" v-for="( item , index ) in recordList" :key="index">
+            <li class="mod_search_unit" v-for="( item , index ) in reverseRecordList" :key="index" @click="selectItem(item)">
                 <a href="javascript:;" class="js_keyword record_main">
                     <span class="icon iocn_clock"></span>
                     <span class="js_keyword record_con">{{ item }}</span>
@@ -22,7 +22,16 @@
                 recordList : []
             }
         },
-        props : ['isShow'],
+        computed:{
+            reverseRecordList:function(){
+                return this.recordList.reverse();
+            }
+        },
+        watch:{
+            recordList(){
+                return this.$store.getters.getRecordlist;
+            }
+        },
         methods : {
         	//删除记录
 			deleteRecord : function (e) {
@@ -37,11 +46,19 @@
 				this.recordList = [];
 				//刷新历史记录
 				this.$store.commit('set_recordList' , { recordList : this.recordList });
-			}
+            },
+            selectItem(key){
+                console.log("触发点击");
+                this.$emit('selectHistoryKey',key);
+                this.$store.dispatch('set_currentKeyWord',key);
+            }
         },
-        beforeMount (){
-        	//获取历史记录
-            this.recordList = this.$store.getters.get_recordlist ;
+        mounted (){
+            //获取历史记录
+            this.recordList = this.$store.getters.getRecordlist ;
+        },
+        destroyed(){
+            console.log('销毁历史记录组件');
         }
     }
 </script>
